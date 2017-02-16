@@ -8,7 +8,7 @@ Example docker setup to run a nats server, a nats-go listener, and a nats-go req
 ```
 apt-get install golang # https://wiki.ubuntu.com/Go
 export GOPATH=`pwd`
-go get github.com/nats-io/go-nats
+go get shadiakiki1986/example-nats-go-docker
 go run publish.go
 ```
 
